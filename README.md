@@ -28,6 +28,21 @@ Guidelines for contributing to the project.
 
 This project demonstrates how to use Python to greet the world.
 
+
+```sh
+  CHANNEL_ID ( UCiEmtpFVJjpvdhsQ2QAhxVA )
+                                        |
+                                        |
+
+                                    PLAYLIST_ID (UUiEmtpFVJjpvdhsQ2QAhxVA)
+                                        |
+                                        |
+                      ---------------------------------------------
+                      |               |           |               |
+                  VIDEO_ID(1)    VIDEO_ID(2)    VIDEO_ID(3)      VIDEO_ID(4)
+                ("dQw4w9WgXcQ")("9bZkp7q19f0") ("j5-yKhDd64s")  ("QH2-TGUlwu4")
+```
+
 ## Installation
 
 To run this project, you'll need Python installed. Then, you can clone the repository and run the following command:
