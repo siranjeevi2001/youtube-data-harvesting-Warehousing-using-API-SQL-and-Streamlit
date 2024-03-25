@@ -19,11 +19,11 @@ Social Media
 
 To run this project, you'll need Python installed. Then, you can clone the repository and run the following command:
 
-```sh
+
 ## Installation
 
 This project requires the following libraries to be installed:
-
+```
 - `os`
 - `google_auth_oauthlib.flow`
 - `googleapiclient.discovery`
@@ -32,10 +32,10 @@ This project requires the following libraries to be installed:
 - `mysql.connector`
 - `streamlit`
 - `pandas`
-
+```
 You can install these libraries using pip:
 
-```sh
+```
 pip install google-auth-oauthlib google-api-python-client mysql-connector-python
  details.
 ```
