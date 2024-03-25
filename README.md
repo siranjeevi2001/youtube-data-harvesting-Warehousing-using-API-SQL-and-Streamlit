@@ -44,9 +44,9 @@ This project uesed tools and technology - python, Pandas, Data Collection, Strea
 
       Set up a Streamlit app: Streamlit is a great choice for building data visualization and analysis tools quickly and easily. You can use Streamlit to create a simple UI where users can enter a YouTube channel ID, view the channel details, and select channels to migrate to the data warehouse.
       
-      Connect to the YouTube API: You'll need to use the YouTube API to retrieve channel and video data. You can use the Google API client library for Python to make requests to the API.
+      - `Connect to the YouTube API: You'll need to use the YouTube API to retrieve channel and video data. You can use the Google API client library for Python to make requests to the API.`
       
-      Store and Clean data : Once you retrieve the data from the YouTube API, store it in a suitable format for temporary storage before migrating to the data warehouse. You can use pandas DataFrames or other in-memory data structures.
+      - Store and Clean data : Once you retrieve the data from the YouTube API, store it in a suitable format for temporary storage before migrating to the data warehouse. You can use pandas DataFrames or other in-memory data structures.
       
       Migrate data to a SQL data warehouse: After you've collected data for multiple channels, you can migrate it to a SQL data warehouse. You can use a SQL database such as MySQL or PostgreSQL for this.
       
@@ -60,9 +60,19 @@ This project uesed tools and technology - python, Pandas, Data Collection, Strea
 To run this project, you'll need Python installed. Then, you can clone the repository and run the following command:
 
 ```sh
-pip install -r requirements.txt
+## Installation
 
+This project requires the following libraries to be installed:
 
-## License
+- `os`
+- `google_auth_oauthlib.flow`
+- `googleapiclient.discovery`
+- `googleapiclient.errors`
+- `pprint`
+- `mysql.connector`
 
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+You can install these libraries using pip:
+
+```sh
+pip install google-auth-oauthlib google-api-python-client mysql-connector-python
+ details.
