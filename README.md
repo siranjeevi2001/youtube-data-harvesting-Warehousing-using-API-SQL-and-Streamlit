@@ -24,6 +24,18 @@ Instructions on how to use the project and examples if applicable.
 
 Guidelines for contributing to the project.
 
+# My Python Project
+
+This project demonstrates how to use Python to greet the world.
+
+## Installation
+
+To run this project, you'll need Python installed. Then, you can clone the repository and run the following command:
+
+```sh
+pip install -r requirements.txt
+
+
 ## License
 
 This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
