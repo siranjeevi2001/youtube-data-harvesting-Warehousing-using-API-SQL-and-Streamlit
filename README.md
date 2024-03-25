@@ -30,6 +30,8 @@ This project requires the following libraries to be installed:
 - `googleapiclient.errors`
 - `pprint`
 - `mysql.connector`
+- `streamlit`
+- `pandas`
 
 You can install these libraries using pip:
 
@@ -40,6 +42,10 @@ pip install google-auth-oauthlib google-api-python-client mysql-connector-python
 
 ## project workflow
 ```sh
+                        create Youtube v3 API create(Google Developer Console)
+                                        |
+                                        |
+
   CHANNEL_ID ( UCiEmtpFVJjpvdhsQ2QAhxVA )
                                         |
                                         |
