@@ -39,6 +39,49 @@ You can install these libraries using pip:
 pip install google-auth-oauthlib google-api-python-client mysql-connector-python
  details.
 ```
+## Environment Setup
+
+1. **Create a Virtual Environment:** (Optional but recommended)
+   - It's a good practice to work in a virtual environment to isolate your project dependencies. You can create a virtual environment using `venv` or `conda`:
+     - Using `venv` (for Python 3):
+       ```sh
+       python3 -m venv myenv
+       ```
+     - Using `conda`:
+       ```sh
+       conda create --name myenv
+       ```
+
+2. **Activate the Virtual Environment:**
+   - Activate the virtual environment:
+     - On Windows:
+       ```sh
+       myenv\Scripts\activate
+       ```
+     - On macOS/Linux:
+       ```sh
+       source myenv/bin/activate
+       ```
+
+3. **Install Streamlit and Dependencies:**
+   - Once the virtual environment is activated, install Streamlit and other dependencies:
+     ```sh
+     pip install streamlit google-auth-oauthlib google-api-python-client mysql-connector-python
+     ```
+
+4. **Run the Streamlit Application:**
+   - Start your Streamlit application:
+     ```sh
+     streamlit run your_app.py
+     ```
+   - Replace `your_app.py` with the name of your Streamlit application file.
+
+5. **Deactivate the Virtual Environment:**
+   - When you're done working on your project, deactivate the virtual environment:
+     ```sh
+     deactivate
+     ```
+
 
 ## project workflow
 ```sh
