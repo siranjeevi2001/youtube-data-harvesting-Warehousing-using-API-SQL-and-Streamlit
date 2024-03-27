@@ -1,6 +1,10 @@
 # Project Title
 
 YouTube Data Harvesting and Warehousing using SQL and Streamlit
+## Run program
+```
+streamlit run main.py
+```
 
 ## Skills Takeaway From This Project
 
